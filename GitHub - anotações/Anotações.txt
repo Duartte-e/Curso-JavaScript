@@ -1,0 +1,6 @@
+git init
+git status
+git add .
+
+git config --global user.email "rm98845@estudante.fieb.edu.br"
+git config --global user.name "Duartte-e"
