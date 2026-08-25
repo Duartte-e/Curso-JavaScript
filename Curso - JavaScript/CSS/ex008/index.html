@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+
+    <style>
+        .container {
+            background-color: aqua;
+            display: flex; /* Display flex sempre no pai dos itens*/
+            /* flex-direction: row; */
+            /* flex-direction: column; */
+            /* flex-direction: row-reverse; */
+            flex-direction: column-reverse;
+        }
+
+        .container > div {
+            background-color: rgb(175, 104, 241);
+            border: 1px solid black;
+            padding: 10px;
+            flex: auto;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div>Exemplo item A</div>
+        <div>Exemplo item B</div>
+        <div>Exemplo item C</div>
+        <div>Exemplo item D</div>
+    </div>
+
+</body>
+
+</html>
